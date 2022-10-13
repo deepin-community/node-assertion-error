@@ -1,0 +1,12 @@
+Description: Fix node command
+--- a/Makefile
++++ b/Makefile
+@@ -7,7 +7,7 @@
+ 
+ test-node: 
+ 	@printf "\n  ==> [Node.js]\n"
+-	@NODE_ENV=test node ./test/index.js
++	@NODE_ENV=test nodejs ./test/index.js
+ 
+ test-browser:
+ 	@printf "\n  ==> [Browser]\n"

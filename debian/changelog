@@ -1,0 +1,20 @@
+node-assertion-error (1.1.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.5.0
+  * Bump debhelper compatibility level to 12
+  * Update VCS fields to salsa
+  * Use pkg-js-tools auto install
+  * Enable upstream test
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 19 Feb 2020 16:01:33 +0100
+
+node-assertion-error (1.0.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #840487)
+
+ -- Syam G Krishnan <sgk@riseup.net>  Wed, 12 Oct 2016 09:24:21 +0530
